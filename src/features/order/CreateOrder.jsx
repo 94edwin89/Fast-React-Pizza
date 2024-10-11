@@ -81,7 +81,7 @@ function CreateOrder() {
 }
 
 export async function action({ request }) {
-  const formData = await request.formData;
+  const formData = await request.formData();
   const data = Object.fromEntries(formData);
 
   const order = {
@@ -89,9 +89,9 @@ export async function action({ request }) {
     cart: JSON.parse(data.cart),
     priority: data.priority === "on",
   };
-
+console.log(order);
   const newOrder = await createOrder(order);
-
+console.log(newOrder);
   return redirect(`/order/${newOrder.id}`);
 }
 

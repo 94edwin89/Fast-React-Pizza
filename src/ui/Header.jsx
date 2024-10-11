@@ -1,12 +1,13 @@
+import { Link } from "react-router-dom";
 import SearchOrder from "../features/order/SearchOrder";
 
 function Header() {
     return(
-        <Header>
-            <link to ='/'>Fast React Pizza .co</link>
+        <header>
+            <Link to ='/'>Fast React Pizza .co</Link>
             <SearchOrder/>
             <p>Edwin </p>
-        </Header>
+        </header>
     )
 }
 
