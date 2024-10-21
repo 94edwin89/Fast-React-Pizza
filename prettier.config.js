@@ -1,4 +1,11 @@
+// prettier.config.cjs
+const tailwindcssPlugin = await import('prettier-plugin-tailwindcss');
+
+
 module.exports = {
-    plugins: [require("prettier-plugin-tailwindcss")],
+    plugins: [tailwindcssPlugin],
     singleQuote: true
   }
+
+  
+
