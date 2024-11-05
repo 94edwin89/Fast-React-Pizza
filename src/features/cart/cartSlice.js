@@ -50,6 +50,6 @@ export const {
   increaseQuantityItem,
   decreaseQuantityItem,
   clearCart,
-} = createSlice.aciton;
+} = cartSlice.actions;
 
 export default cartSlice.reducer;
