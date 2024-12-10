@@ -1,6 +1,4 @@
-Here's a `README.md` file tailored for your project, **Fast React Pizza**:
 
-```markdown
 # Fast React Pizza
 
 Fast React Pizza is a responsive web application designed for a streamlined pizza ordering experience. Built with React, Vite, and Tailwind CSS, it leverages `react-router-dom` for routing and Redux Toolkit for state management.
@@ -106,6 +104,3 @@ src/
 
 
 ---
-
-`https://github.com/94edwin89/fast-react-pizza.git` with the actual URL of your repository if you plan to share it. 
-Let me know if you'd like further customization!
